@@ -1,0 +1,29 @@
+This script automatically buffs the player according to the selected class available in the GUI.
+Automatic buffing for the game Maplestory.
+NOTE: 
+- Not all classes are available
+- Not all skills are auto-buffed
+- Class re-selection can only be done in one direction (down)
+[MUST RUN SCRIPT WITH ADMIN PRIVILEGES]
+Running the script without admin privileges will not allow key-simulations to work.
+
+Uses the following libraries:
+TkInter (GUI)
+PyAutogui (Image detection)
+Keyboard (Simulate input)
+
+Path for assets:
+C:/Python/
+
+V2 Features:
+- Keys can be remapped before activation
+- Pre-bound keys and remapped keys displayed on the right side
+- Interactive GUI
+
+This script uses PyAutogui's 'LocateOnScreen' module to identify the image of the buff to determine whether or not to cast the buff.
+Buff is casted by simulating the bound key using the Keyboard module. (This may interrupt other key presses)
+
+Usage:
+Upon selecting a class; press 'confirm'. 
+[optional] Rebind keys by typing out the chosen key i.e. "F5" must be typed out manually. More information can be found here: https://github.com/boppreh/keyboard
+To start the script, press "Activate Autobuffer".
