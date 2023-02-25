@@ -1,0 +1,14 @@
+Rock, Paper, Scissors game with a GUI
+
+Uses the following libraries:
+TkInter (GUI)
+random (Random)
+
+Path for assets:
+C:/Python/
+
+V2 Features:
+- Interactive GUI
+
+This script Tkinter to give the game a GUI to interact with.
+Rock, Paper, Scissors button against the CPU .
